@@ -8,5 +8,5 @@ jobs:
         run: |
           echo "Hello world"
       - name: this will fail
-        run : exit 1:
+        run : exit 1;
      
