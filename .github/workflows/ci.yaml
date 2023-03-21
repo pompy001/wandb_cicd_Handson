@@ -1,0 +1,10 @@
+name: GitHub Actions Demo
+on: [push]    #we want that the when the push event happen trigger the workflow
+jobs:
+  my-firs-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: |
+          echo "Hello world"
+     
